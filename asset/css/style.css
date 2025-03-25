@@ -1,5 +1,12 @@
 @import url("./dashboardcard.css");
 
+* {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 :root {
   --body-bg: #e2dede;
   --sidebar-width: 230px;
@@ -9,6 +16,8 @@
   --secondry-color: #a8aaae;
   --font-color: #1a1a1a;
 }
+
+
 
 .ytr-btn {
   border: 1px solid var(--primary-color);
