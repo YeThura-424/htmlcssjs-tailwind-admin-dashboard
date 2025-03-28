@@ -72,7 +72,8 @@ body {
   width: 230px;
 }
 .sidebar_wrapper.hide_title .title {
-  display: none;
+  opacity: 0;
+  width: 0;
 }
 
 .sidebar_wrapper.hide_title .sidebar_item::after {
@@ -83,7 +84,8 @@ body {
   align-items: center;
 }
 .title {
-  text-wrap: nowrap;
+  white-space: nowrap;
+  transition: opacity 0.3s ease, width 0.3s 
 }
 .sidebar_header {
   height: 50px;
