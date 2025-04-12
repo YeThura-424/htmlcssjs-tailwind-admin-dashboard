@@ -45,7 +45,7 @@
                 <span class="title">Dashboard</span>
               </p>
             </div>
-            <div class="sidebar_link_item hidden">
+            <!-- <div class="sidebar_link_item hidden">
               <ul class="link_item_wrapper">
                 <li class="link_item">
                   <a href="" class="flex items-center">
@@ -60,7 +60,7 @@
                   </a>
                 </li>
               </ul>
-            </div>
+            </div> -->
           </li>
           <li class="sidevar_item_wrapper">
             <div class="sidebar_item flex justify-between">
@@ -153,43 +153,14 @@
           </div>
           <div class="user-profile pr-2 cursor-pointer relative dropdown">
             <div class="nav-profile-img-container">
-              <img src="app/asset/image/user.jpg" alt="" />
+              <img src="/asset/image/user.png" alt="" />
             </div>
             <div class="dropdown-wrapper hidden">
               <div class="dropdown-contant">
                 <div
                   class="user-info flex bg-[var(--primary-color)] text-white items-center justify-between gap-3 px-4 py-2">
                   <div class="image w-12 h-12 rounded-full border border-[var(--secondry-color)] p-1">
-                    <img src="app/asset/image/user.png" alt="">
-                  </div>
-                  <div class="user-detail">
-                    <h1>John Doe</h1>
-                    <p>johndoe@gmail.com</p>
-                  </div>
-                </div>
-                <div class="links">
-                  <ul class="dropdown-link flex flex-col">
-                    <a href="#" class="dropdown-link-item px-4 py-2 hover:bg-[var(--secondry-color)]">
-                      <li>Profile</li>
-                    </a>
-                    <a href="#" class="dropdown-link-item px-4 py-2 hover:bg-[var(--secondry-color)]">
-                      <li>Logout</li>
-                    </a>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="user-profile pr-2 cursor-pointer relative dropdown">
-            <div class="nav-profile-img-container">
-              <img src="app/asset/image/user.jpg" alt="" />
-            </div>
-            <div class="dropdown-wrapper hidden">
-              <div class="dropdown-contant">
-                <div
-                  class="user-info flex bg-[var(--primary-color)] text-white items-center justify-between gap-3 px-4 py-2">
-                  <div class="image w-12 h-12 rounded-full border border-[var(--secondry-color)] p-1">
-                    <img src="app/asset/image/user.png" alt="">
+                    <img src="/asset/image/user.png" alt="">
                   </div>
                   <div class="user-detail">
                     <h1>John Doe</h1>
@@ -213,8 +184,8 @@
         <div class="contant_area">
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
             <div class="total_user">
-              <div class="dashboard_card">
-                <div class="pl-1 h-20 bg-blue-400 rounded-lg shadow-md">
+              <div class="dashboard_card cursor-pointer">
+                <div class="hover:pl-1 transition-all duration-200 h-20 bg-[var(--primary-color)] rounded-lg shadow-md">
                   <div class="flex w-full h-full py-2 px-4 bg-white rounded-lg justify-between">
                     <div class="my-auto">
                       <p class="font-bold">Total User</p>
@@ -232,8 +203,8 @@
               </div>
             </div>
             <div class="total_rentel">
-              <div class="dashboard_card">
-                <div class="pl-1 h-20 bg-blue-400 rounded-lg shadow-md">
+              <div class="dashboard_card cursor-pointer">
+                <div class="hover:pl-1 transition-all duration-200 h-20 bg-[var(--primary-color)] rounded-lg shadow-md">
                   <div class="flex w-full h-full py-2 px-4 bg-white rounded-lg justify-between">
                     <div class="my-auto">
                       <p class="font-bold">Total Rents</p>
@@ -251,8 +222,8 @@
               </div>
             </div>
             <div class="rental_return">
-              <div class="dashboard_card">
-                <div class="pl-1 h-20 bg-blue-400 rounded-lg shadow-md">
+              <div class="dashboard_card cursor-pointer">
+                <div class="hover:pl-1 transition-all duration-200 h-20 bg-[var(--primary-color)] rounded-lg shadow-md">
                   <div class="flex w-full h-full py-2 px-4 bg-white rounded-lg justify-between">
                     <div class="my-auto">
                       <p class="font-bold">PENDING REQUESTS</p>
