@@ -67,6 +67,7 @@ body {
 }
 .aside.toggled {
   width: 60px;
+  overflow: hidden;
 }
 .aside.toggled:hover {
   width: 230px;
@@ -85,7 +86,7 @@ body {
 }
 .title {
   white-space: nowrap;
-  transition: opacity 0.3s ease, width 0.3s 
+  /* transition: opacity 0.1s ease, width 0.2s  */
 }
 .sidebar_header {
   height: 50px;
